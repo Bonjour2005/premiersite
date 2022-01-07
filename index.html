@@ -15,15 +15,24 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
+  padding: 20px;
+  text-align: center; */
+  display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url(http://coqktail.com/wp-content/uploads/2018/04/p%C3%A2tisserie.jpg);
+background-repeat: ;
+text-align: center;
+background-position: center;
+padding: 40px;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
 }
 
 /* Style the topnav links */
@@ -38,7 +47,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(158, 22, 22);
   color: black;
 }
 
@@ -76,23 +85,31 @@ body {
   <a href="#">compte</a>
   <a href="#">Boutique</a>
 </div>
-
+<center></center>
 <div class="row">
   <div class="Sandwich">
     <h2>Sandwich</h2>
     <p></p>
-  </div>
-  
-  <div class="Patisserie">
-    <h2>Patisserie</h2>
-    <p></p>
-  </div>
-  
-  <div class="Boissons">
+    <img src="https://cdn.tasteatlas.com/images/dishes/39831ff1b1194ec19abc03da509aaffc.jpg" width="500" height="250" alt="Sandwich">
+</center>
+</div>
+
+  <center>
+    <div class="Patisserie">
+        <h2>Patisserie</h2>
+        <p></p>
+      </div>
+      <img src="https://i2.wp.com/voyages.ideoz.fr/wp-content/uploads/2014/07/Patisseries-%C3%A0-Paris.jpg?fit=700%2C344&ssl=1" width="500" height="250" alt="Patisserie">
+    </center>
+
+<center>
+    <div align="right">
     <h2>Boissons</h2>
     <p></p>
+    <img src="https://www.clcv.org/storage/app/uploads/public/5e2/f1f/c6e/5e2f1fc6e6a36822691637.jpg" width="350" height="250" alt="Boisson">
+    >
   </div>
-</div>
+</center>
 
 </body>
 </html>
